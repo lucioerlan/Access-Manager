@@ -1,0 +1,74 @@
+openapi: 3.0.0
+info:
+  description: '<font size="2" color="red">MIT License</font>'
+  title: "Access-Manager"
+  contact:
+    name: Erlan Lucio
+    url: https://github.com/lucioerlan
+  version: '1.0'
+servers:
+- url: http://localhost:5000/api
+  variables: {}
+paths:
+  /get-all-ticket:
+    get:
+      tags:
+      - ROUTES
+      summary: GET ALL TICKET
+      operationId: GETALLTICKET
+      parameters: []
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+  /store-ticket:
+    post:
+      tags:
+      - ROUTES
+      summary: STORE  TICKET
+      operationId: STORETICKET
+      parameters: []
+      requestBody:
+        description: ''
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/STORETICKETREQUEST'
+            example:
+              name: Claudio souza
+              vehicle: PLD-9865
+              phone: 33-39854-2547
+              ticket_window: '2'
+        required: true
+      responses:
+        '200':
+          description: ''
+          headers: {}
+      deprecated: false
+components:
+  schemas:
+    STORETICKETREQUEST:
+      title: STORETICKETREQUEST
+      required:
+      - name
+      - vehicle
+      - phone
+      - ticket_window
+      type: object
+      properties:
+        name:
+          type: string
+        vehicle:
+          type: string
+        phone:
+          type: string
+        ticket_window:
+          type: string
+      example:
+        name: Claudio souza
+        vehicle: PLD-9865
+        phone: 33-39854-2547
+        ticket_window: '2'
+tags:
+- name: ROUTES

@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "54d74437-fdb2-4ac0-9f68-4776fed2ae64",
+		"name": "Access-Manager",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ROUTES",
+			"item": [
+				{
+					"name": "GET ALL TICKET",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/get-all-ticket",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"get-all-ticket"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "STORE  TICKET",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Claudio souza\",\r\n    \"vehicle\": \"PLD-9865\",\r\n    \"phone\": \"33-39854-2547\",\r\n    \"ticket_window\": \"2\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/store-ticket",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"store-ticket"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
