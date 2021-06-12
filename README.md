@@ -11,7 +11,7 @@
 <p align="center">
   <h3 align="center"> 
 
-   Access Manager 🎫
+   A queue password system, and with a modern layout that fits easily 🎫
 
   </h3> 
   <p align="center">
