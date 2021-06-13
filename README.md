@@ -11,7 +11,7 @@
 <p align="center">
   <h3 align="center"> 
 
-   A queue password system, and with a modern layout that fits easily 🎫
+   Access Manager 🎫
 
   </h3> 
   <p align="center">
@@ -28,7 +28,7 @@
 <!-- ABOUT THE PROJECT -->
 ## 🤔 About The Project
 
-A free, interactive map. With the best leaflet plugins..
+A queue password system, and with a modern layout that fits easily..
 
 **-** <a href="https://frontend-access-manager.herokuapp.com" target="_blank">Frontend</a>
 
