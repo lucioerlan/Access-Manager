@@ -76,7 +76,7 @@ $ node src/database/seeds/Seed.js
 ## 🤓 Documentation and running tests
 
 * Access swagger http://localhost:5000/api/docs 🥇
-* $ npm test
+* $ npm run test
 
 <br>
 
