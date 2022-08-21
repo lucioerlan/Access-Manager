@@ -1,9 +1,8 @@
 {
-  "name": "react-material-dashboard",
-  "author": "DeviasIO",
-  "licence": "MIT",
+  "name": "Access-Manager",
   "version": "1.0.0",
-  "private": false,
+  "author": "Erlan Lucio",
+  "issues": "https://github.com/lucioerlan/Access-Manager/issues",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts --max_old_space_size=4096 build",
