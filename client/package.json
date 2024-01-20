@@ -42,7 +42,7 @@
     "jss-rtl": "^0.3.0",
     "lodash": "^4.17.19",
     "material-table": "^1.69.2",
-    "moment-timezone": "0.5.26",
+    "moment-timezone": "0.5.44",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
